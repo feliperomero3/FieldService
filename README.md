@@ -15,5 +15,5 @@ Create field service orders for your field operation agents to attend to and mar
 
 ## Requirements
 
-- ASP.NET Core 3.1
+- ASP.NET Core 5
 - Visual Studio 2019
