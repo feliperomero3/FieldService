@@ -1,6 +1,6 @@
 # Field Service
 
-ASP.NET Core 3.1 Razor Pages Web Application to manage field services
+ASP.NET Core 3.1 Razor Pages Web Application to manage field services.
 
 ## Overview
 
