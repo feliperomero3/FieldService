@@ -13,7 +13,9 @@ Create field service orders for your field operation agents to attend to and mar
 3.	Handlers can assign field services to available field agents.
 4.	...
 
-## Requirements
+## Getting started
 
-- ASP.NET Core 5
-- Visual Studio 2019
+1. Clone the project.
+1. Build the solution.
+1. Run the application.
+1. Open your web browser and go to <https://localhost:44389>.
