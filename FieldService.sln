@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29911.84
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldService", "src\FieldService\FieldService.csproj", "{1BED0D02-597E-4D0E-8FDC-01B5086A21E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldService", "src\FieldService.csproj", "{B431E4AA-3F47-439D-8DB9-BDAD916836A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1BED0D02-597E-4D0E-8FDC-01B5086A21E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BED0D02-597E-4D0E-8FDC-01B5086A21E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BED0D02-597E-4D0E-8FDC-01B5086A21E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BED0D02-597E-4D0E-8FDC-01B5086A21E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B431E4AA-3F47-439D-8DB9-BDAD916836A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B431E4AA-3F47-439D-8DB9-BDAD916836A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B431E4AA-3F47-439D-8DB9-BDAD916836A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B431E4AA-3F47-439D-8DB9-BDAD916836A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A94B6A14-8198-42A0-8B7C-A522006415C0}
+		SolutionGuid = {E229393E-2B74-49CF-82B3-7A52A725437F}
 	EndGlobalSection
 EndGlobal
