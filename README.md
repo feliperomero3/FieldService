@@ -21,5 +21,6 @@ Create field service orders for your field operation agents to attend to and mar
 
 1. Clone the project.
 1. Build the solution.
+1. Restore client-side libraries with Libman
 1. Run the application.
 1. Open your web browser and go to <https://localhost:5001>.
