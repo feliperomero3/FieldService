@@ -24,3 +24,9 @@ Create field service orders for your field operation agents to attend to and mar
 1. Restore client-side libraries with Libman
 1. Run the application.
 1. Open your web browser and go to <https://localhost:5001>.
+
+## License
+
+[MIT License](./LICENSE)
+
+Copyright &copy; 2022 Felipe Romero
