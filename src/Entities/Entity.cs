@@ -1,6 +1,6 @@
 ﻿// Customized from https://github.com/vkhorikov/DddAndEFCore/blob/90bf08dcaa8f9ab000713060effa8a7f46a303e1/src/App/Entity.cs
 
-namespace FieldService;
+namespace FieldService.Entities;
 
 public abstract class Entity
 {

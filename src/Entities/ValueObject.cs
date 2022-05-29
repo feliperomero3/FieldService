@@ -1,6 +1,6 @@
 ﻿// Customized from https://github.com/vkhorikov/CSharpFunctionalExtensions/blob/8171649c1b7f41dd2ee4f135433a470daa59e567/CSharpFunctionalExtensions/ValueObject/ValueObject.cs
 
-namespace FieldService;
+namespace FieldService.Entities;
 
 [Serializable]
 public abstract class ValueObject : IComparable, IComparable<ValueObject>
@@ -46,20 +46,20 @@ public abstract class ValueObject : IComparable, IComparable<ValueObject>
             throw new ArgumentNullException(nameof(obj));
         }
 
-        Type thisType = GetUnproxiedType(this);
-        Type otherType = GetUnproxiedType(obj);
+        var thisType = GetUnproxiedType(this);
+        var otherType = GetUnproxiedType(obj);
 
         if (thisType != otherType)
             return string.Compare(thisType.ToString(), otherType.ToString(), StringComparison.Ordinal);
 
         var other = (ValueObject)obj;
 
-        object[] components = GetEqualityComponents().ToArray();
-        object[] otherComponents = other.GetEqualityComponents().ToArray();
+        var components = GetEqualityComponents().ToArray();
+        var otherComponents = other.GetEqualityComponents().ToArray();
 
-        for (int i = 0; i < components.Length; i++)
+        for (var i = 0; i < components.Length; i++)
         {
-            int comparison = CompareComponents(components[i], otherComponents[i]);
+            var comparison = CompareComponents(components[i], otherComponents[i]);
             if (comparison != 0)
                 return comparison;
         }
@@ -118,7 +118,7 @@ public abstract class ValueObject : IComparable, IComparable<ValueObject>
         const string EFCoreProxyPrefix = "Castle.Proxies.";
         const string NHibernateProxyPostfix = "Proxy";
 
-        Type type = obj.GetType();
+        var type = obj.GetType();
 
         var typeString = type.ToString();
 
